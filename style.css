@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #09092d;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 5%;
+    height: 70%;
+    background-image: linear-gradient(to right, red, rgb(209, 24, 219),rgb(130, 37, 170),rgb(0, 179, 255)); 
+    padding: 20px 30px;
+    gap: 30px;
+    border-radius: 20px;
+}
+.right-container , .left-container{
+    background-color: black;
+    padding:20px;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+.left-container{
+    width: 40%;
+}
+.left-container img{
+    margin-top: 7%;
+    border-radius: 50%;
+}
+.left-container h2{
+     margin-top: 6%;
+     background: linear-gradient(to right, rgb(209, 24, 219),rgb(130, 37, 170),orange,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.left-container h4{
+    margin-top: 5%;
+}
+.right-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.right-container h2{
+    background: linear-gradient(to left, rgb(209, 24, 219),rgb(130, 37, 170),orange,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.right-container table{
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 20%;
+}
+.right-container td{
+    padding: 6px;
+    text-align: left;
+}
